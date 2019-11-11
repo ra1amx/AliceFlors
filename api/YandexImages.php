@@ -1,6 +1,6 @@
 <?php
 /**
- * User: MaxM18
+ * 
  */
 
 namespace bot\api;

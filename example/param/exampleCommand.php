@@ -1,6 +1,6 @@
 <?php
 /**
- * User: MaxM18
+ * 
  */
 require_once __DIR__ . '/../../processing/Command.php';
 require_once __DIR__ . '/../../components/Text.php';

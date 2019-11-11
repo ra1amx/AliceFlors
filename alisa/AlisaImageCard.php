@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: max18
- * Date: 13.02.2019
- * Time: 13:29
+ * 
  */
 
 namespace bot\alisa;

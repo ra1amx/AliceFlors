@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: max18
- * Date: 18.06.2019
- * Time: 8:47
+ * 
  */
 
 namespace bot\components;
