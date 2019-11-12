@@ -10,7 +10,7 @@ class exampleCommand extends \bot\processing\Command
     public $userId = null;
 
     /**
-     * Массив с вопросами
+     * Массив с вопросами - тестовый массив для проверки работы навыка - взято из игры
      * @var mixed
      */
     public $gameTexts;
