@@ -86,15 +86,15 @@ public function addImages($imgDir, $title, $description, $button = null);
     $this->image->title = 'Title'; // Заполяем заголовок для карточки
     $this->image->description = 'Description'; // Заполяем описание для карточки
             
-    $this->image->button = ['text' => 'button', 'url' => 'https://www.islandgift.ru', 'payload' => 'payload']; // Указываем кнопку, если необходимо.
-    //$this->image->button = ['text' => 'button', 'url' => 'https://www.islandgift.ru']; // Указываем кнопку с url.
+    $this->image->button = ['text' => 'button', 'url' => 'https://www.etagi.com', 'payload' => 'payload']; // Указываем кнопку, если необходимо.
+    //$this->image->button = ['text' => 'button', 'url' => 'https://www.etagi.com']; // Указываем кнопку с url.
     //$this->image->button = ['text' => 'button', 'payload' => 'payload']; // Указываем кнопку с payload.
 /**
 * Список
 **/
     $this->image->isItemsList = true; // Указываем что использовать список
     $this->image->title = 'Title'; // Заполняем заголовок для списка
-    $button = ['text' => 'button', 'url' => 'https://www.islandgift.ru', 'payload' => 'payload']; // Создаем кнопку
+    $button = ['text' => 'button', 'url' => 'https://www.etagi.com', 'payload' => 'payload']; // Создаем кнопку
     $this->image->addImages('imgDir', 'Title', 'Description', $button); // Добавляем картинки с кнопкой
     $this->image->addImages('imgDir', 'Title', 'Description', 'text');  // Добавляем блок с кнопкой в виде текста
     $this->image->addImages('', 'Title', 'Description');    // Добавляем блок без картинки и кнопки

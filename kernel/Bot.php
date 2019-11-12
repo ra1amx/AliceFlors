@@ -200,7 +200,7 @@ class Bot
     public $newCommand = __DIR__ . '/param/allCommand.php'; // Массив с командами для пользователей
     public $processingCommand = null; // Обработчик специальных команд для навыка
 
-    public $url = 'https://alisa.islandgift.ru'; // Адресс сайта
+    public $url = 'https://alisa.etagi.com'; // Адресс сайта
 
     public $keyCommand = null; // Идентификатор команды
 

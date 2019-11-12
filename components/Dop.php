@@ -8,7 +8,7 @@ namespace bot\components;
 
 class Dop
 {
-    const Y_MONEY_LINK = 'https://yasobe.ru/na/maximco';
+    const Y_MONEY_LINK = 'https://enbc.ru';
 
     /**
      * Функция, отвечающая за добавления данных.
@@ -53,7 +53,7 @@ class Dop
             'Дать денежку',
         ];
         if (rand(0, 5) == 3) {
-            $site = 'https://money.yandex.ru/to/410014603054118';
+            $site = 'https://money.yandex.ru/to/';
         } else {
             $site = self::Y_MONEY_LINK;
         }

@@ -8,13 +8,13 @@
     $this->image->isBigImage = true; // Указываем что используем карточку
     $this->image->title = 'Title'; // Заполяем заголовок для карточки
     $this->image->description = 'Description'; // Заполяем описание для карточки
-    $this->image->button = ['text' => 'button', 'url' => 'https://www.islandgift.ru', 'payload' => 'payload']; // Указываем кнопку, если необходимо. 
+    $this->image->button = ['text' => 'button', 'url' => 'https://www.etagi.com', 'payload' => 'payload']; // Указываем кнопку, если необходимо. 
 ```
 ## Список с картинками
 ```php
    $this->image->isItemsList = true; // Указываем что использовать список
    $this->image->title = 'Title'; // Заполняем заголовок для списка
-   $button = ['text' => 'button', 'url' => 'https://www.islandgift.ru', 'payload' => 'payload']; // Создаем кнопку
+   $button = ['text' => 'button', 'url' => 'https://www.etagi.com', 'payload' => 'payload']; // Создаем кнопку
    $this->image->addImages('imgDir', 'Title', 'Description', $button); // Добавляем картинки 
    $this->image->addImages('imgDir', 'Title', 'Description', null);    //===================
    $this->image->footerText = 'Footer'; // Заполняем поле footer если необходимо
@@ -24,7 +24,7 @@
 ```php
    $this->image->isItemsList = true; // Указываем что использовать список
    $this->image->title = 'Title'; // Заполняем заголовок для списка
-   $button = ['text' => 'button', 'url' => 'https://www.islandgift.ru', 'payload' => 'payload']; // Создаем кнопку
+   $button = ['text' => 'button', 'url' => 'https://www.etagi.com', 'payload' => 'payload']; // Создаем кнопку
    $this->image->addImages('', 'Title', 'Description', $button); // Добавляем картинки 
    $this->image->addImages('', 'Title', 'Description', null);    //===================
    $this->image->isItemsImage = false; // Указываем, что не нужно отображать картинки

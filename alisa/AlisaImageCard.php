@@ -138,7 +138,7 @@ class AlisaImageCard extends Image
      *
      * @return array['status'=>bool,'img_id'=>string]
      */
-    protected function getImageId($host = 'https://www.islandgift.ru/'): array
+    protected function getImageId($host = 'https://www.etagi.com/'): array
     {
         if ($this->imageToken == null) {
             $this->setImageToken();

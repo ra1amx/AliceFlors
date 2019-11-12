@@ -189,7 +189,7 @@ abstract class Command extends Alisa
      */
     public function getHost(): string
     {
-        return 'https://www.islandgift.ru/';
+        return 'https://www.etagi.com';
     }
 
     /**
